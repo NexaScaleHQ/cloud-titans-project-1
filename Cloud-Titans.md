@@ -1,4 +1,4 @@
-# TCS PROJECT DOCUMENTATION
+# CLOUD-TITANS PROJECT DOCUMENTATION
 
 ## AWS CLOUD SOLUTION FOR 2 COMPANY WEBSITES USING A REVERSE PROXY TECHNOLOGY
 In this project, we will build a secure infrastructure inside AWS VPC (Virtual Private Cloud) network for a fictitious company (Choose an interesting name for it) that uses WordPress CMS for its main business website, and a Tooling Website (https://github.com/<your-name>/tooling) for their DevOps team. As part of the company’s desire for improved security and performance, a decision has been made to use a reverse proxy technology from NGINX to achieve this.
@@ -8,7 +8,7 @@ In this project, we will build a secure infrastructure inside AWS VPC (Virtual P
 ## Project Design Architecture Diagram
 
 
-![](./Images/)
+![](./Images/architecture%20diagram.PNG)
 
 
 
@@ -38,11 +38,11 @@ Move the DevOps account into the Dev OU.
 
 1. Create a VPC
 
-![](./Images/create%20a%20new%20VPC.PNG)
+![](./Images/Create%20VPC.PNG)
 
 2. Create subnets as shown in the architecture
 
-![](./Images/private%20subnet%20created.PNG)
+![](./Images/create%20subnet.PNG)
 
 3. Create a route table and associate it with public subnets
 
@@ -57,15 +57,15 @@ Move the DevOps account into the Dev OU.
 
 1. Edit a route in public route table, and associate it with the Internet Gateway. (This is what allows a public subnet to be accisble from the Internet)
    
-![](./img/6.pub-routes.png)
+![](./Images/create%20route%20table.PNG)
 
-7. Create an Elastic IP
+1. Create an Elastic IP
 
-![](./img/7.nat_eip.png)
+![](./Images/EIP.PNG)
 
 8. Create a Nat Gateway and assign one of the Elastic IPs (*The other 2 will be used by Bastion hosts)
    
-![](./Images/create%20NAT%20gateway.PNG)
+![](./Images/create%20NAT-GW.PNG)
 
 9. Create a Security Group for:
 
