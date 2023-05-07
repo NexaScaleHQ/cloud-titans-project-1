@@ -155,7 +155,7 @@ To configure RDS, follow steps below:
 - To create Launch templates and target groups later on, we will need to setup AMI containing configurations to be done on this respective servers.
 
 #
-## **[Configurations for this servers can be found on this repository](https://github.com/Tonybesto/TCS-Project-Configuration)**
+## **[Configurations for this servers can be found on this repository](https://github.com/NexaScaleHQ/cloud-titans-project-1/tree/main/TCS-Project-Configuration)**
 #
 
 ![](./Images/all%20redhat%20servers.PNG)
