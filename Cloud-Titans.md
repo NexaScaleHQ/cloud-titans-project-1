@@ -268,3 +268,4 @@ Nginx EC2 Instances will have configurations that accepts incoming traffic only 
 ## Adding URL EndPoints to Route53 for Wordpress and Tooling Access
 ![](./Images/route%2053%20records.PNG)
 ![](./Images/tooling%20webpage.PNG)
+![](./Images/wordpress%20webpage.PNG)
